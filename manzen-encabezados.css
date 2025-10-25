@@ -1,37 +1,24 @@
-/*═══════════════════════════════════════════════════════════════════════════════
- 🎨 OBSIDIAN CUSTOM CSS - ENCABEZADOS MANZEN
-═══════════════════════════════════════════════════════════════════════════════*/
-
-/*─────────────────────────────────────────────
- 🔹 TÍTULOS EN LÍNEA (Inline Titles)
-─────────────────────────────────────────────*/
-
 .inline-title {
   font-family: 'Montserrat Alternates' !important;
-  text-align: center;
-  font-weight: 500 !important;
-  padding-bottom: 1em;
-  margin-bottom: 0;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid #a1a0a0;
+  padding-bottom: 0.1em;
+  margin-bottom: 1.1em;
 }
 
-/*─────────────────────────────────────────────
- 📑 ENCABEZADOS (Headings)
-─────────────────────────────────────────────*/
-
-/* H2 */
 .markdown-preview-view h2,
 .HyperMD-header.HyperMD-header-2.cm-line,
 .el-h2 {
-  margin-bottom: 0.1;
-  margin-top: 0.5;
-}
-/* H3 */
-.markdown-preview-view h3 {
-  margin-top: 1em !important;
-  margin-bottom: 0.1em !important;
-  font-weight: 500 !important;
-  text-align: left;
-  text-rendering: optimizeLegibility;
-   
+  color: #64B5F6;
+  margin-bottom: 0;
 }
 
+.markdown-preview-view h3 {
+  color: #BBDEFB;
+  margin-top: 1.5em !important;
+  margin-bottom: 0.1em !important;
+  font-weight: bolder !important;
+  text-align: left;
+}
