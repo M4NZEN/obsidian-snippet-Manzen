@@ -1,0 +1,35 @@
+/*═══════════════════════════════════════════════════════════════════════════════
+ 🎨 OBSIDIAN CUSTOM CSS - LISTAS MANZEN
+═══════════════════════════════════════════════════════════════════════════════*/
+
+/*─────────────────────────────────────────────
+ 📋 LISTAS
+─────────────────────────────────────────────*/
+
+/* Preview */
+.markdown-preview-view ul,
+.markdown-preview-view ol,
+.has-list-bullet {
+  padding-left: 25px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.8em !important;
+}
+
+.markdown-preview-view li {
+  text-align: justify;
+  line-height: 1.9em !important;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.cm-line.HyperMD-list-line {
+  text-align: justify !important;
+  text-indent: 0 !important;
+  white-space: normal !important;
+  padding-left: 25px !important;
+  margin-top: 0px !important;
+  margin-left: 10px !important;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-rendering: optimizeLegibility;
+}

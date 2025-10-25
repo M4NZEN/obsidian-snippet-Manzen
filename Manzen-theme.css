@@ -1,0 +1,10 @@
+/*═══════════════════════════════════════════════════════════════════════════════
+ 🎨 OBSIDIAN CUSTOM CSS - MANZEN THEME MAIN
+═══════════════════════════════════════════════════════════════════════════════*/
+
+@import url('manzen_01-fuentes.css');
+@import url('manzen_02-parrafos.css');
+@import url('manzen_03-encabezados.css');
+@import url('manzen_04-listas.css');
+@import url('manzen_05-imagenes.css');
+@import url('manzen_06-generales.css');

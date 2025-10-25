@@ -1,0 +1,36 @@
+/*═══════════════════════════════════════════════════════════════════════════════
+ 🎨 OBSIDIAN CUSTOM CSS - PÁRRAFOS MANZEN
+═══════════════════════════════════════════════════════════════════════════════*/
+
+/*─────────────────────────────────────────────
+ 📝 PÁRRAFOS
+─────────────────────────────────────────────*/
+
+/* 🧾 MODO PREVIEW (Reading Mode) */
+.markdown-preview-view p {
+  padding-left: 0 !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.1em !important;
+  text-align: justify !important;
+  text-rendering: optimizeLegibility;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  line-height: 1.7;
+}
+
+
+/* ✏️ MODO EDICIÓN (Live Preview) */
+.cm-line:not(.HyperMD-header) {
+  max-width: 731px;
+  text-align: justify;
+  text-rendering: optimizeLegibility;
+  padding-left: 0 !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0 !important;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  white-space: normal !important;
+  line-height: auto;
+}
+
+

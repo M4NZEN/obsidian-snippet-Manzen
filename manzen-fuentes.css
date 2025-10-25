@@ -1,0 +1,48 @@
+/*═══════════════════════════════════════════════════════════════════════════════
+ 🎨 OBSIDIAN CUSTOM CSS - FUENTES MANZEN
+═══════════════════════════════════════════════════════════════════════════════*/
+
+/*─────────────────────────────────────────────
+ 🔹 FUENTES LOCALES
+─────────────────────────────────────────────*/
+
+/* Regular */
+@font-face {
+    font-family: 'LMMono10';
+    src: url('fonts/lmroman10-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Italic */
+@font-face {
+    font-family: 'LMMono10';
+    src: url('fonts/lmroman10-italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'LMMono10';
+    src: url('fonts/lmroman10-bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Bold Italic */
+@font-face {
+    font-family: 'LMMono10';
+    src: url('fonts/lmroman10-bolditalic.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Monospace (tipo código) */
+@font-face {
+    font-family: 'LMMono10-Mono';
+    src: url('fonts/lmmono10-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+

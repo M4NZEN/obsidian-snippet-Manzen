@@ -1,0 +1,42 @@
+/*═══════════════════════════════════════════════════════════════════════════════
+ 🎨 OBSIDIAN CUSTOM CSS - IMÁGENES MANZEN
+═══════════════════════════════════════════════════════════════════════════════*/
+
+/*─────────────────────────────────────────────
+ 🖼️ IMÁGENES
+─────────────────────────────────────────────*/
+
+/* Centrado universal */
+.cm-contentContainer .internal-embed.image-embed,
+.markdown-preview-view .internal-embed.image-embed {
+  display: block !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+.cm-contentContainer .internal-embed.image-embed img,
+.markdown-preview-view .internal-embed.image-embed img {
+  display: block !important;
+  margin: 0 auto !important;
+  height: auto !important;
+  border-radius: 1rem;
+}
+
+/* Párrafos con solo una imagen */
+.markdown-preview-view p:has(> .internal-embed.image-embed:only-child),
+.markdown-preview-view p:has(> img:only-child) {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+}
+
+/* Imágenes inline con texto */
+.markdown-preview-view p:not(:has(> .internal-embed.image-embed:only-child)) img {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  margin: 0.5em auto !important;
+}
