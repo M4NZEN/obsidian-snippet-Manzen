@@ -49,7 +49,6 @@ donde $J$ es la inercia, $b$ el coeficiente de fricción, $\theta$ el ángulo de
 La sincronización entre sensores, control y actuadores es la esencia de un buen diseño mecatrónico.
 
 > “La mecatrónica no busca reemplazar al ingeniero, sino amplificar su capacidad de crear.”
-> 
 
 ## Tablas
 | Componente      | Tipo          | Función                               |
